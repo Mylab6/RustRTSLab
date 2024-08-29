@@ -17,6 +17,7 @@ fn main() {
     }
 
     // Build for Android
+    /* 
     println!("Building for Android...");
     let android_build = Command::new("cargo")
         .args(&[
@@ -34,6 +35,7 @@ fn main() {
     if !android_build.success() {
         panic!("Android build failed!");
     }
+    */
 
     println!("Build completed successfully.");
 }
